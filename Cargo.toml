@@ -1,5 +1,5 @@
 [package]
-name = "bpf-program-template"
+name = "solana-mail"
 version = "0.1.0"
 edition = "2018"
 license = "WTFPL"
@@ -7,6 +7,9 @@ publish = false
 
 [dependencies]
 solana-program = "=1.8.1"
+borsh = "0.9.1"
+borsh-derive = "0.9.1"
+thiserror = "1.0.30"
 
 [features]
 test-bpf = []
